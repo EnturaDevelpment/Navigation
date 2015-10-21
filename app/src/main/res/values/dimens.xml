@@ -1,0 +1,100 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <style name="Cuenta">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/colorTextoOscuro</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:textColorHint">#00AFC4</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+
+    <style name="menuRegistro">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingTop">20sp</item>
+    </style>
+
+    <style name="NumeroCell" >
+        <item name="android:maxLength">10</item>
+        <item name="android:inputType">number</item>
+
+    </style>
+    <style name="Monto" >
+        <item name="android:inputType">numberDecimal</item>
+    </style>
+
+    <style name="TextoLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:inputType">text</item>
+        <item name="android:windowSoftInputMode">stateHidden</item>
+        <item name="android:textColor">#D2D2D2</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColorHint">#00AFC4</item>
+
+        <item name="android:padding">5dp</item>
+
+        <item name="android:background">@android:color/transparent</item>
+
+
+
+    </style>
+
+
+    <style name="TextoTituloWhite" parent="TextoTitulo">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColor">#242C36</item>
+        texts
+    </style>
+
+
+
+    <style name="TextoTituloWhite2" parent="TextoTitulo">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+
+    </style>
+
+
+    <style name="TextoTituloBlue2" parent="TextoTitulo">
+        <item name="android:textColor">#4d2e30</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="TextoTitulo" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:inputType">text</item>
+        <item name="android:gravity">left</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
+</resources>
+

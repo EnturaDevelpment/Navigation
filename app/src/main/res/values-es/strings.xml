@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Textos -->
+    <string name="ok">Aceptar</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+    <string name="cancelar">Cancelar</string>
+
+
+    <string name="simbolo">$</string>
+    <string name="CountryCode">MX</string>
+    <string name="FechaFormat">dd/MM/yyyy HH:mm</string>
+
+    <string name="menu_main">Menú principal</string>
+    <string name="menu_administration">Administración</string>
+    <string name="menu_accounts">Cuentas</string>
+    <string name="menu_transfer">Transferencias</string>
+    <string name="menu_service_payment">Pago de servicios</string>
+    <string name="menu_find_comerce">Localicador de comercios</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="menu_exit">Salir</string>
+
+
+    <string name="action_settings">Configuración</string>
+    <string name="Please_Wait">Por favor espere</string>
+    <string name="Service_not_available">Servicio no disponible</string>
+    <string name="Connecting_to_server">Conectando con el servidor</string>
+    <string name="Sending">Enviando</string>
+    <string name="closing">Cerrando</string>
+    <string name="pin">PIN</string>
+    <string name="enter_pin">Ingrese su NIP</string>
+    <string name="sim_not_found">SIM no encontrado, compruebe que el SIM se ha instalado correctamente</string>
+    <string name="not_connection">No se pudo conectar con el servidor, revise la conexion a internet e intente nuevamente</string>
+    <string name="bank_error">Error al recibir respuesta de banco</string>
+    <string name="want_to_exit_the_aplication">¿Desea salir de la aplicación?</string>
+    <string name="timeout">Tiempo de espera excedido, por favor inicie sesión</string>
+
+    <!-- BD -->
+    <string name="BD_cuentas_insert_error">Error al almacenar cuentas</string>
+    <string name="BD_App_info_insert_error">Error al almacenar app_info</string>
+    <string name="BD_App_info_error_serialization">Error al serializar app info</string>
+
+    <!-- Load -->
+    <string name="m_00_unable_to_create_database">Conflicto al crear base de datos</string>
+    <string name="m_00_unable_to_open_database">Conflicto al abrir base de datos</string>
+
+    <!-- phone_register -->
+    <string name="m_01_bank_register">REGISTRO</string>
+    <string name="m_01_entumovil_service">Servicio ENTU MÓVIL</string>
+    <string name="m_01_phone_number">Número celular</string>
+    <string name="m_01_confirm_phone_number">Confirmar</string>
+    <string name="m_01_register">Registrar</string>
+    <string name="m_01_telephone_number_does_not_match">Número telefónico no coincide</string>
+    <string name="m_01_enter_and_confirm_your_phone_number">Especifique y confirme su  número celular</string>
+    <string name="m_01_the_number_provided_does_not_match_the_actual_number_of_your_phone">El número proporcionado no coincide con el número actual de su teléfono</string>
+    <string name="m_01_validating_cell_phone_number">Validando número de celular</string>
+
+    <string name="m_01_no_active_service_on_the_phone">Servicio no activado en el teléfono</string>
+    <string name="m_01_unregistered_phone_network">Teléfono no registrado en la red Entura</string>
+    <string name="m_01_has_detected_a_change_of_sim">Se ha detectado cambio de sim, por favor validar número de teléfono</string>
+    <string name="m_01_bank_successfully_registered">Banco registrado exitosamente</string>
+    <string name="m_01_you_will_receive_a_message">Usted recibirá un mensaje para verificar la identidad de su teléfono, espere por favor</string>
+    <string name="m_01_it_was_not_possible_to_verify_identity">No fue posible verificar identidad, verifique que el número es correcto e intente mas tarde</string>
+    <string name="m_01_Error">Error al obtener solicitud de registro</string>
+    <string name="m_01_complete_pin_change">Complete el cambio de NIP</string>
+
+
+
+    <!-- change_nip -->
+    <!-- change_nip -->
+    <string name="m_02_change_pin">Cambio de NIP</string>
+    <string name="m_02_current_pin">NIP actual</string>
+    <string name="m_02_new_pin">NIP nuevo</string>
+    <string name="m_02_confirm_pin">Confirmar</string>
+    <string name="m_02_save">Guardar</string>
+    <string name="m_02_PIN_does_not_match">PIN no coincide</string>
+    <string name="m_02_enter_and_confirm_your_new_pin">Especifique y confirme su nuevo NIP</string>
+    <string name="m_02_new_pin_must_be_different_than_current">La nueva clave debe ser diferente que la actual</string>
+
+
+    <!-- Login -->
+    <string name="m_03_pin">NIP</string>
+    <string name="m_03_login">Acceso</string>
+    <string name="m_03_enter_pin">Ingrese NIP</string>
+    <string name="m_03_access">Ingresar</string>
+
+
+
+    <!-- Accounts -->
+    <string name="m_04_accounts">Cuentas</string>
+
+    <string name="m_04_account">Cuenta:</string>
+    <string name="m_04_consult_your_statement">Consulte su estado de cuenta</string>
+    <string name="m_04_owns">Propias</string>
+    <string name="m_04_others">Terceros</string>
+    <string name="m_04_other_bank">Otros bancos</string>
+    <string name="m_04_add">Agregar</string>
+    <string name="m_04_account_statement">Estado de cuenta</string>
+    <string name="m_04_balance_inquiry">Consulta de saldo</string>
+    <string name="m_04_remove">Eliminar</string>
+    <string name="m_04_transfer">Transferir</string>
+
+    <!-- Transfers -->
+    <string name="m_06_transfers">Transferencias</string>
+    <string name="m_06_own">Propias</string>
+    <string name="m_06_third">Terceros</string>
+    <string name="m_06_interbank">Interbancarias</string>
+    <string name="m_06_origin_account">Cuenta origen</string>
+    <string name="m_06_target_account">Cuenta destino</string>
+    <string name="m_06_continue">Continuar</string>
+    <string name="m_06_confirmation">Confirmación</string>
+    <string name="m_06_ammount">Importe</string>
+    <string name="m_06_invalid_ammount">Monto no válido</string>
+    <string name="m_06_invalid_account">Cuenta de destino no válida</string>
+
+
+    <!-- shopping -->
+
+    <string name="m_07_shopping">Recarga Tiempo Aire</string>
+    <string name="m_07_payment">Pagos</string>
+    <string name="m_07_service_payment">Pago de servicio</string>
+    <string name="m_07_airtime">Recarga de tiempo aire</string>
+    <string name="m_07_service">Servicio</string>
+    <string name="m_07_company">Compañía</string>
+    <string name="m_07_reference">Reference</string>
+    <string name="m_07_invalid_phone_number">Inserte número a 10 dígitos</string>
+    <string name="m_07_you_will_receive_a_message_token">Por su seguridad, recibirá un mensaje con un código de confirmación</string>
+    <string name="m_07_choose">Seleccione...</string>
+
+    <string name="m_07_select_account">Seleccione cuenta</string>
+    <string name="m_07_select_company">Seleccione compañia</string>
+
+
+    <string name="m_08_change_pin">Cambio de NIP</string>
+    <string name="m_08_cancel_service">Cancelar servicio</string>
+    <string name="m_08_continue">Continuar</string>
+    <string name="m_08_cancel_text">¿Seguro que desea cancelar el servicio? usted no será capaz de hacer operaciones y consultas hasta que el servicio reactiva de nuevo.</string>
+
+
+</resources>

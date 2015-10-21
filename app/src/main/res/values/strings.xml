@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Navigation</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- otros -->
+
+
+    <string name="app_nameUpper">ENTU MÓVIL</string>
+    <string name="Copyright">Copyright © 2015 by Entura Global Network</string>
+    <string name="EnturaGlobalNetwork"></string>
+    <string name="phone_number">018003688733</string>
+    <string name="phone_number_label">01-800-ENTURED (3688733)</string>
+
+    <string name="enturaver">v.</string>
+    <string name="soporte">soporte@entura.com.mx</string>
+    <string name="soporte2">01800ENTURED</string>
+
+    <string name="simbolo">$</string>
+    <string name="CountryCode">USD</string>
+    <string name="FechaFormat">MM/dd/yyyy HH:mm</string>
+
+    <!-- Textos -->
+    <string name="ok">Ok</string>
+    <string name="si">Yes</string>
+    <string name="no">No</string>
+    <string name="cancelar">Cancel</string>
+
+
+
+    <string name="menu_main">Main menu</string>
+    <string name="menu_administration">Administration</string>
+    <string name="menu_accounts">Accounts</string>
+    <string name="menu_transfer">Transfers</string>
+    <string name="menu_service_payment">Service payment</string>
+    <string name="menu_find_comerce">Localicador de comercios</string>
+    <string name="menu_about">About</string>
+    <string name="menu_exit">Exit</string>
+
+
+
+    <string name="Please_Wait">Please wait</string>
+    <string name="Service_not_available">Service not available</string>
+    <string name="Connecting_to_server">Connecting to server</string>
+    <string name="Sending">Sending</string>
+    <string name="closing">Closing</string>
+    <string name="pin">PIN</string>
+    <string name="enter_pin">Enter PIN</string>
+    <string name="sim_not_found">SIM not found, Please check that the SIM is properly installed</string>
+    <string name="bank_error">Error getting bank response</string>
+    <string name="not_connection">Could not connect to server, check the Internet connection and try again</string>
+    <string name="want_to_exit_the_aplication">Want to exit the aplication?</string>
+    <string name="timeout">Timeout, please log in</string>
+
+    <!-- BD -->
+    <string name="BD_cuentas_insert_error">Error on insert accounts</string>
+    <string name="BD_App_info_insert_error">Error on insert app info</string>
+    <string name="BD_App_info_error_serialization">Error on serializate app info</string>
+
+    <!-- Load -->
+    <string name="m_00_unable_to_create_database">"Unable to create database</string>
+    <string name="m_00_unable_to_open_database">"Unable to open database</string>
+
+    <!-- phone_register -->
+    <string name="m_01_bank_register">REGISTRO</string>
+    <string name="m_01_entumovil_service">ENTU MÓVIL service</string>
+    <string name="m_01_phone_number">Phone number</string>
+    <string name="m_01_confirm_phone_number">Confirm</string>
+    <string name="m_01_register">Register</string>
+    <string name="m_01_telephone_number_does_not_match">Telephone number does not match</string>
+    <string name="m_01_enter_and_confirm_your_phone_number">Enter and confirm your phone number</string>
+    <string name="m_01_the_number_provided_does_not_match_the_actual_number_of_your_phone">The number provided does not match the actual number of your phone</string>
+    <string name="m_01_validating_cell_phone_number">Validating cell phone number</string>
+    <string name="m_01_no_active_service_on_the_phone">No active service on the phone</string>
+    <string name="m_01_unregistered_phone_network">Unregistered phone network</string>
+    <string name="m_01_has_detected_a_change_of_sim">Has detected a change of sim, please validate telephone number</string>
+    <string name="m_01_bank_successfully_registered">bank successfully registered</string>
+    <string name="m_01_you_will_receive_a_message">You will receive a message to verify the identity of your phone, please wait</string>
+    <string name="m_01_it_was_not_possible_to_verify_identity">It was not possible to verify identity, verify that the number is correct and try again later</string>
+    <string name="m_01_Error">Error getting bank request</string>
+    <string name="m_01_complete_pin_change">Complete PIN change</string>
+
+    <!--  <string name="m_01_"></string> -->
+
+
+    <!-- change_nip -->
+    <string name="m_02_change_pin">PIN change</string>
+    <string name="m_02_current_pin">Current PIN</string>
+    <string name="m_02_new_pin">New PIN</string>
+    <string name="m_02_confirm_pin">Confirm PIN</string>
+    <string name="m_02_save">Save</string>
+    <string name="m_02_PIN_does_not_match">PIN does not match</string>
+    <string name="m_02_enter_and_confirm_your_new_pin">Enter and confirm your new PIN</string>
+    <string name="m_02_new_pin_must_be_different_than_current">New pin must be different than current pin</string>
+
+
+    <!-- Login -->
+    <string name="m_03_login">login</string>
+    <string name="m_03_access">login</string>
+    <string name="m_03_enter_pin">Enter PIN</string>
+
+    <!-- Accounts -->
+    <string name="m_04_accounts">accounts</string>
+    <string name="m_04_consult_your_statement">Consult your statement</string>
+    <string name="m_04_account">account:</string>
+    <string name="m_04_owns">owns</string>
+    <string name="m_04_others">others</string>
+    <string name="m_04_other_bank">other_bank</string>
+    <string name="m_04_add">Add</string>
+    <string name="m_04_account_statement">account statement</string>
+    <string name="m_04_balance_inquiry">balance inquiry</string>
+    <string name="m_04_remove">Eliminar</string>
+    <string name="m_04_transfer">Transfer</string>
+
+    <!-- Transfers -->
+    <string name="m_06_transfers">Transfers</string>
+    <string name="m_06_own">Own</string>
+    <string name="m_06_third">Third</string>
+    <string name="m_06_interbank">Interbank</string>
+    <string name="m_06_origin_account">Origin account</string>
+    <string name="m_06_target_account">Target account</string>
+    <string name="m_06_continue">Continue</string>
+    <string name="m_06_confirmation">Confirmation</string>
+    <string name="m_06_ammount">Ammount</string>
+    <string name="m_06_invalid_ammount">Invalid ammount</string>
+    <string name="m_06_invalid_account">Invalid account</string>
+
+
+    <!-- shopping -->
+
+    <string name="m_07_shopping">Shopping</string>
+    <string name="m_07_payment">Payments</string>
+    <string name="m_07_service_payment">Service payment</string>
+    <string name="m_07_airtime">Airtime purchase</string>
+    <string name="m_07_service">Service</string>
+    <string name="m_07_company">Company</string>
+    <string name="m_07_reference">Reference</string>
+    <string name="m_07_you_will_receive_a_message_token">For your safety, you will receive a message with a confirmation code</string>
+    <string name="m_07_choose">Choose...</string>
+
+    <string name="m_07_invalid_phone_number">Invalid phone number</string>
+    <string name="m_07_select_account">Select account</string>
+    <string name="m_07_select_company">Select company</string>
+
+    <string name="m_08_change_pin">Change pin</string>
+    <string name="m_08_cancel_service">Cancel service</string>
+    <string name="m_08_continue">Continue</string>
+    <string name="m_08_cancel_text">Are you sure you want to cancel the service? you will not be able to do operations and queries until reactive service again. If you want to continue with the cancellation press continue.</string>
+
+
+
+
+
+
+</resources>

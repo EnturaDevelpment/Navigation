@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/TituloLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/Titulo"
+            style="@style/TextoTituloWhite"
+
+            android:text="@string/m_07_shopping" />
+
+    </LinearLayout>
+    <ScrollView
+        style="@style/menuRegistro"
+        android:layout_below="@+id/TituloLayout"
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                style="@style/TextoLabel"
+                android:text="@string/m_06_origin_account"
+                android:id="@+id/origin_account"
+                />
+
+            <Spinner
+                style="@style/Cuenta"
+
+
+                android:layout_below="@+id/origin_account"
+                android:id="@+id/m_07_origen"
+                android:spinnerMode="dialog" />
+
+            <TextView
+                style="@style/TextoLabel"
+                android:text="@string/m_07_company"
+                />
+
+            <Spinner
+                style="@style/Cuenta"
+
+                android:id="@+id/m_07_company"
+                android:spinnerMode="dialog"
+                android:prompt="@string/m_07_choose"/>
+
+
+
+            <TextView
+                style="@style/TextoLabel"
+                android:text="@string/m_07_service"
+                android:id="@+id/target_account"
+                />
+
+            <Spinner
+                style="@style/Cuenta"
+                android:layout_below="@+id/target_account"
+                android:id="@+id/m_07_service"
+                android:spinnerMode="dialog" />
+
+            <EditText
+                android:id="@+id/txt_reference"
+                style="@style/NumeroCell"
+                android:hint="@string/m_01_phone_number"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+            <EditText
+                android:id="@+id/txt_monto"
+                android:enabled="false"
+                style="@style/Monto"
+                android:visibility="invisible"
+                android:hint="@string/m_06_ammount"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <android.support.design.widget.FloatingActionButton android:id="@+id/fab"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end" android:layout_margin="@dimen/fab_margin"
+                android:src="@android:drawable/ic_dialog_email" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>
